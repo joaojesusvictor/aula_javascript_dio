@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <title>Minha página</title>
+        <meta charset="utf-8">
+        <script type="text/javascript" src="js/main.js"></script>
+    </head>
+    <body onload="load()"> <!-- "onload" faz a função passada ser executada assim que a página terminar de ser carregada -->
+        <!-- <script>
+            alert("meu primeiro js");
+        </script> -> Dá para acrescentar o código js direto no HTML ou separa-los em pastas <- -->
+        <!-- <button type="button" onclick="clicou()">Clique aqui</button> -->
+        <!-- <p id="agradecimento" onclick="redirecionar()"></p> -->
+        <!-- <p onmouseover="trocar(this)" onmouseout="voltar(this)">Passe o mouse aqui</p> -->
+        <!-- o "this" nas chamadas de função acima é necessário para mexer em cada elemento por vez -->
+        <!-- <p onmouseover="trocar(this)" onmouseout="voltar(this)">Passe o mouse aqui</p> -->
+        <select onchange="funcaoChange(this)">
+            <!-- "onchange" é usado para, quando a mudança da opção for feita, o programa vai coletar o "value" -->
+            <option value="1">Valor 1</option>
+            <option value="2">Valor 2</option>
+            <option value="3">Valor 3</option>
+        </select>
+    </body>
+</html>
